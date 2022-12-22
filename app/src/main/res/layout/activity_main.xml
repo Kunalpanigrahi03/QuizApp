@@ -66,6 +66,7 @@
                     android:inputType="text"
                     android:textColor="#553B14"
                     android:textColorHint="#3F51B5"
+                    android:id="@+id/et_name"
                     />
 
 
@@ -79,7 +80,7 @@
                 android:layout_marginTop="16dp"
                 android:backgroundTint="#553B14"
                 android:text="@string/Start"
-
+                android:id="@+id/btnNext"
                 />
 
 
