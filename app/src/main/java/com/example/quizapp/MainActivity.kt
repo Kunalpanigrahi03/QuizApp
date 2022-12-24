@@ -13,12 +13,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnNext : Button = findViewById(R.id.btnNext)
-        val etname : EditText = findViewById(R.id.et_name)
+        val etName : EditText = findViewById(R.id.et_name)
         btnNext.setOnClickListener{
-            if (etname.text.isNotEmpty()){
+            if (etName.text.toString().isEmpty()){
                 Toast.makeText(this,"Please Enter your name",Toast.LENGTH_LONG).show()
             }else{
                 val intent = Intent(this,QuizQuestionsActivity::class.java)
+                intent.putExtra(Constants.USER_NAME, etName.text.toString())
                 startActivity(intent)
                 finish()
             }

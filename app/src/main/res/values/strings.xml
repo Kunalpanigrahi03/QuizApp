@@ -6,5 +6,9 @@
     <string name="Hint">e.g. Kunal</string>
     <string name="Start">Start</string>
     <string name="imageview">Quiz image</string>
-    <string name = "submit">SUBMIT</string>
+    <string name="submit">SUBMIT</string>
+    <string name = "result">Result</string>
+    <string name="image">image</string>
+    <string name ="Congo">Congratulations!!</string>
+    <string name = "finish">FINISH</string>
 </resources>
